@@ -25,7 +25,7 @@ mkdir .redget/core
 #Install Core from GitHub
 echo "Installing Core.."
 cd .redget/core
-wget -o red-get raw.githubusercontent.com/RedBigz/red-get/core/core-get.py
+wget -o red-get https://raw.githubusercontent.com/RedBigz/red-get/core/core-get.py
 
 #Finished
 echo "Remember to add it to the path if you haven't already:"
