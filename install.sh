@@ -11,7 +11,7 @@ echo ""
 #Install prompt
 echo -e "${bold}RedGet Installer${reset}"
 echo -e "Are you sure you want to install red-get? Press RETURN to start install. Press CTRL+C to abort."
-read
+read line
 
 #Install
 
@@ -26,6 +26,7 @@ mkdir .redget/core
 echo "Installing Core.."
 cd .redget/core
 wget -o red-get https://raw.githubusercontent.com/RedBigz/red-get/core/core-get.py
+sudo chmod +x ./red-get
 
 #Finished
 echo "Remember to add it to the path if you haven't already:"
